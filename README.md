@@ -21,7 +21,7 @@
 
 <!-- | Title  | Year  | venue | [link]() | summary | -->
 
-### ncalibrated Models Can Improve Human-AI CollaborUation
+### Uncalibrated Models Can Improve Human-AI Collaboration
 #### Abstract
 This paper explores the practical applications of AI where AI models assist human users in decision-making. The AI provides advice with a measure of confidence, allowing humans to gauge its reliability. **The study shows that presenting AI models as more confident than they actually are, even if they are well-calibrated, can enhance human-AI performance**. To achieve this, the researchers trained a model to predict how humans incorporate AI advice based on a large dataset of human-AI interactions. By transforming the AI's prediction confidence to make it uncalibrated, they improved the final human prediction. The results were validated across four tasks involving images, text, and tabular data, with hundreds of human participants. Simulation analysis further supports their findings, emphasizing the importance of jointly optimizing the human-AI system rather than solely focusing on optimizing the AI model.
 
@@ -41,3 +41,15 @@ No AI involved but they predict how well a team of individuals can perform toget
 
 ### Modeling Human Trust and Reliance in AI-Assisted Decision Making A Markovian Approach
 They perform analysis based on Prospect Theory. 
+
+#### Abstract
+
+Understanding how humans interact with and rely on AI is crucial for better decision-making support. Unlike previous studies that often approached human reliance on AI analytically, considering cost-benefit analysis, this study takes psychological factors like trust in AI  into account. **This paper introduces a hidden Markov model to study the affective process of human-AI interaction in AI-assisted decision making.** It explores how humans adjust their trust in AI over time and make reliance decisions based on that trust. The model outperforms various baselines in predicting human reliance behavior using real human behavior data. The study also provides insights into how contextual factors like decision stakes and interaction experiences influence trust and reliance dynamics in AI-assisted decision making. The proposed model also sheds light on how contextual factors like decision stakes and interaction experiences influence humans' trust and reliance dynamics in AI-assisted decision making.
+
+#### What is reported
+1. How their Hidden MArkov Model is structured and trained
+2. What baselined were used to predict the AI-reliance for the experiment
+3. The performance of their method vs the baseline methods for predicting the AI-reliance in High Penalty (HP) and Low Penalty (LP) settings for the population (?)
+4. The reliance probability distribution predicted by their method vs the baslines for the 4 actions (appropriate rejection, inappropriate rejection, appropriate acceptance, inappropriate acceptance)
+5. The performance of their method vs the baseline methods for predicting the AI-reliance in High Penalty (HP) and Low Penalty (LP) settings for individuals (?)
+6. The trust state transition probability difference (%) for HP vs. LP, previous experience et−1 being appropriate vs. inappropriate acceptance, or inappropriate vs. appropriate rejection
