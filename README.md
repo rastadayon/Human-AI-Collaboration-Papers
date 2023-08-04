@@ -13,7 +13,7 @@
 | The Utility of Explainable AI in Ad Hoc Human-Machine Teaming  | 2021  | NeurIPS | [link](https://papers.nips.cc/paper_files/paper/2021/hash/05d74c48b5b30514d8e9bd60320fc8f6-Abstract.html) | summary |
 | Evaluation of Human-AI Teams for Learned and Rule-Based Agents in Hanabi | 2021  | NeurIPS | [link](https://papers.nips.cc/paper_files/paper/2021/hash/86e8f7ab32cfd12577bc2619bc635690-Abstract.html) | summary |
 | Evaluating and Rewarding Teamwork Using Cooperative Game Abstractions  | 2020  | NeurIPS | [link](https://papers.nips.cc/paper_files/paper/2020/hash/4d95d05a4fc4eadbc3b9dde67afdca39-Abstract.html) | [summary](#evaluating-and-rewarding-teamwork-using-cooperative-game-abstractions) |
-| Are Two Heads Better Than One in AI-Assisted Decision Making? Comparing the Behavior and Performance of Groups and Individuals in Human-AI Collaborative Recidivism Risk Assessment  | 2023  | CHI Conference on Human Factors in Computing Systems | [link](https://dl.acm.org/doi/abs/10.1145/3544548.3581015) | summary |
+| Are Two Heads Better Than One in AI-Assisted Decision Making? Comparing the Behavior and Performance of Groups and Individuals in Human-AI Collaborative Recidivism Risk Assessment  | 2023  | CHI Conference on Human Factors in Computing Systems | [link](https://dl.acm.org/doi/abs/10.1145/3544548.3581015) | [summary](#are-two-heads-better-than-one-in-ai-assisted-decision-making?-comparing-the-behavior-and-performance-of-groups-and-individuals-in-human-ai-collaborative-recidivism-risk-assessment) |
 | Who Should I Trust: AI or Myself? Leveraging Human and AI Correctness Likelihood to Promote Appropriate Trust in AI-Assisted Decision-Making  | 2023  | CHI Conference on Human Factors in Computing Systems | [link](https://dl.acm.org/doi/abs/10.1145/3544548.3581058) | summary |
 | Modeling Human Trust and Reliance in AI-Assisted Decision Making: A Markovian Approach  | 2023  | AAAI | [link](https://ojs.aaai.org/index.php/AAAI/article/view/25748) | [summary](#modeling-human-trust-and-reliance-in-ai-assisted-decision-making:-a-markovian-approach) |
 
@@ -39,8 +39,30 @@ Could be potentially useful for the defense part of the attack!
 ### Evaluating and Rewarding Teamwork Using Cooperative Game Abstractions
 No AI involved but they predict how well a team of individuals can perform together using cooperative game theory. Could be useful! 
 
+### <h3 style="color:brown;">Are Two Heads Better Than One in AI-Assisted Decision Making? Comparing the Behavior and Performance of Groups and Individuals in Human-AI Collaborative Recidivism Risk Assessment</h3>
+
+#### Abstract
+In this paper, the focus is on comparing the behavior and performance of groups and individuals in AI-assisted decision making, particularly in the context of recidivism risk assessment. Six aspects are examined, including decision accuracy and confidence, appropriateness of reliance on AI, understanding of AI, decision-making fairness, and willingness to take accountability. The results show that groups tend to rely more on AI models, regardless of correctness, but they are more confident in overturning incorrect AI recommendations. Additionally, groups tend to make fairer decisions than individuals based on the accuracy equality criterion, and they are more willing to credit AI when correct decisions are made. The paper concludes by discussing the implications of these findings.
+#### Measurements
+- Decision accuracy (Individual and group)
+- Reliance on AI (Over-liance and under-liance for both individual and group)
+- Decision confidence (Self-reported confidence on likert scale - Confidence for correct final decision and incorrect final decisions)
+- Understanding of AI (Importance of different features for the AI model)
+- Fainess in decision making (Fairness of decision based on race)
+- Accountability (Self-reported)
+
+#### What is reported
+1. **Comparison on decision accuracy** for individual+AI and group+AI
+2. **Comparison on reliance on AI** for overall reliance, under-reliance and, over-reliance in both individual and group setting 
+3. **Comparison on decision confidence** for correct and incorrect final decision of the individuals and the groups, as well as the correct and incorrect final decisions for when the final prediction agreed or disagreed with the AI
+4. **Comparison on understanding of AI** reporting the Pearson correlation coefficient between the true and the subject's percieved feature importance
+5. **Comparison on decision making fairness** 
+6. **Comparison on accountability** assigned by the subjects to themselves and the AI model, for when the individual or group's final decision was correct vs incorrect, when the AI's recommendation was correct vs incorrect
+7. Some exploratory analyses
+8. Reasoning behind choosing the recidivism risk prediction as the task for their experiment
+
 ### Modeling Human Trust and Reliance in AI-Assisted Decision Making A Markovian Approach
-They perform analysis based on Prospect Theory. 
+They perform analysis based on Prospect Theory for one of their baselines. 
 
 #### Abstract
 
