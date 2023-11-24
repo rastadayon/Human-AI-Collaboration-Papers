@@ -7,7 +7,7 @@
 | Human-AI Collaboration in a Cooperative Game Setting: Measuring Social Perception and Outcomes  | 2020  | ACM on Human-Computer Interaction | [link](https://dl.acm.org/doi/abs/10.1145/3415167) | summary |
 | Exploring Trust in Human–AI Collaboration in the Context of Multiplayer Online Games  | 2023  | Systems | [link](https://www.mdpi.com/2079-8954/11/5/217) | summary |
 | Understanding Human-AI Cooperation Through Game-Theory and Reinforcement Learning Models  | 2021  | Hawaii International Conference on System Sciences | [link](https://par.nsf.gov/servlets/purl/10284453) | summary |
-| Trust in an AI versus a Human teammate: The effects of teammate identity and performance on Human-AI cooperation  | 2023  | Computers in Human Behavior | [link](https://www.sciencedirect.com/science/article/pii/S0747563222003569) | summary |
+| Trust in an AI versus a Human teammate: The effects of teammate identity and performance on Human-AI cooperation  | 2023  | Computers in Human Behavior | [link](https://www.sciencedirect.com/science/article/pii/S0747563222003569) | [summary](#trust-in-an-ai-versus-a-human-teammate:-the-effects-of-teammate-identity-and-performance-on-human-ai-cooperation) |
 | Uncalibrated Models Can Improve Human-AI Collaboration  | 2022  | NeurIPS | [link](https://papers.nips.cc/paper_files/paper/2022/hash/1968ea7d985aa377e3a610b05fc79be0-Abstract-Conference.html) | [summary](#uncalibrated-models-can-improve-human-ai-collaboration) |
 | Human-AI Collaborative Bayesian Optimisation  | 2022  | NeurIPS | [link](https://papers.nips.cc/paper_files/paper/2022/file/6751611b394a3464cea53eed91cf163c-Paper-Conference.pdf) | [summary](#human-ai-collaborative-bayesian-optimisation) |
 | The Utility of Explainable AI in Ad Hoc Human-Machine Teaming  | 2021  | NeurIPS | [link](https://papers.nips.cc/paper_files/paper/2021/hash/05d74c48b5b30514d8e9bd60320fc8f6-Abstract.html) | summary |
@@ -15,9 +15,21 @@
 | Evaluating and Rewarding Teamwork Using Cooperative Game Abstractions  | 2020  | NeurIPS | [link](https://papers.nips.cc/paper_files/paper/2020/hash/4d95d05a4fc4eadbc3b9dde67afdca39-Abstract.html) | [summary](#evaluating-and-rewarding-teamwork-using-cooperative-game-abstractions) |
 | Are Two Heads Better Than One in AI-Assisted Decision Making? Comparing the Behavior and Performance of Groups and Individuals in Human-AI Collaborative Recidivism Risk Assessment  | 2023  | CHI Conference on Human Factors in Computing Systems | [link](https://dl.acm.org/doi/abs/10.1145/3544548.3581015) | [summary](#are-two-heads-better-than-one-in-ai-assisted-decision-making?-comparing-the-behavior-and-performance-of-groups-and-individuals-in-human-ai-collaborative-recidivism-risk-assessment) |
 | Who Should I Trust: AI or Myself? Leveraging Human and AI Correctness Likelihood to Promote Appropriate Trust in AI-Assisted Decision-Making  | 2023  | CHI Conference on Human Factors in Computing Systems | [link](https://dl.acm.org/doi/abs/10.1145/3544548.3581058) | summary |
-| Modeling Human Trust and Reliance in AI-Assisted Decision Making: A Markovian Approach  | 2023  | AAAI | [link](https://ojs.aaai.org/index.php/AAAI/article/view/25748) | [summary](#modeling-human-trust-and-reliance-in-ai-assisted-decision-making:-a-markovian-approach) |
+| Modeling Human Trust and Reliance in AI-Assisted Decision Making: A Markovian Approach  | 2023  | AAAI | [link](https://ojs.aaai.org/index.php/AAAI/article/view/25748) | [summary](#modeling-human-trust-and-reliance-in-ai-assisted-decision-making-a-markovian-approach) |
 
 <!-- | Title  | Year  | venue | [link]() | summary | -->
+### Trust in an AI versus a Human teammate: The effects of teammate identity and performance on Human-AI cooperation
+#### Abstract
+Recent advancements in artificial intelligence (AI) have led to the development of more powerful AI agents capable of serving as competent teammates for humans. This paper dicusses the problems of trust in a human-AI collaboration setting and questions if more humanlike features will lead to an improved human-AI joint performance. This research investigates the impact of teammate identity (human vs. AI) and teammate performance (low-performing vs. high-performing AI) on human-AI cooperation through a human subjects study. Results indicate that humans exhibit greater behavioral trust in AI, accepting their decisions more frequently compared to human teammates. Notably, teammate performance significantly influences human-AI joint performance, while teammate identity does not. The findings advise caution against deceiving humans about the identity of AI in future applications involving human-AI cooperation.
+
+#### What is reported
+1. General study framework
+2. Human-AI joint performance in a chess task for each of the different cases (human vs. AI identity / low-performing vs. high-performing AI).
+3. Participants' self-reported trust in their teammate in each of the previously mentioned cases.
+4. Participants' self-reported helpfulness and competency of their teammates in each of the previously mentioned cases.
+5. Means and standard deviations for human-AI joint performance.
+6. Means and standard deviations for human behavioral trust in their teammates.
+
 
 ### Uncalibrated Models Can Improve Human-AI Collaboration
 #### Abstract
@@ -69,7 +81,7 @@ Understanding how humans interact with and rely on AI is crucial for better deci
 #### What is reported
 1. How their Hidden MArkov Model is structured and trained
 2. What baselined were used to predict the AI-reliance for the experiment
-3. The performance of their method vs the baseline methods for predicting the AI-reliance in High Penalty (HP) and Low Penalty (LP) settings for the population (?)
+3. The performance of their method vs the baseline methods for predicting the AI-reliance in High Penalty (HP) and Low Penalty (LP) settings for the population
 4. The reliance probability distribution predicted by their method vs the baslines for the 4 actions (appropriate rejection, inappropriate rejection, appropriate acceptance, inappropriate acceptance)
-5. The performance of their method vs the baseline methods for predicting the AI-reliance in High Penalty (HP) and Low Penalty (LP) settings for individuals (?)
+5. The performance of their method vs the baseline methods for predicting the AI-reliance in High Penalty (HP) and Low Penalty (LP) settings for individuals
 6. The trust state transition probability difference (%) for HP vs. LP, previous experience et−1 being appropriate vs. inappropriate acceptance, or inappropriate vs. appropriate rejection
