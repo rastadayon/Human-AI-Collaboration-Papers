@@ -16,6 +16,7 @@
 | Are Two Heads Better Than One in AI-Assisted Decision Making? Comparing the Behavior and Performance of Groups and Individuals in Human-AI Collaborative Recidivism Risk Assessment  | 2023  | CHI Conference on Human Factors in Computing Systems | [link](https://dl.acm.org/doi/abs/10.1145/3544548.3581015) | [summary](#are-two-heads-better-than-one-in-ai-assisted-decision-making?-comparing-the-behavior-and-performance-of-groups-and-individuals-in-human-ai-collaborative-recidivism-risk-assessment) |
 | Who Should I Trust: AI or Myself? Leveraging Human and AI Correctness Likelihood to Promote Appropriate Trust in AI-Assisted Decision-Making  | 2023  | CHI Conference on Human Factors in Computing Systems | [link](https://dl.acm.org/doi/abs/10.1145/3544548.3581058) | summary |
 | Modeling Human Trust and Reliance in AI-Assisted Decision Making: A Markovian Approach  | 2023  | AAAI | [link](https://ojs.aaai.org/index.php/AAAI/article/view/25748) | [summary](#modeling-human-trust-and-reliance-in-ai-assisted-decision-making-a-markovian-approach) |
+|How does Value Similarity affect Human Reliance in AI-Assisted Ethical Decision Making?| 2023 | AAAI | [link](https://dl.acm.org/doi/pdf/10.1145/3600211.3604709) | [summary](#how-does-value-similarity-affect-human-reliance-in-ai-assisted-ethical-decision-making)
 
 <!-- | Title  | Year  | venue | [link]() | summary | -->
 ### Trust in an AI versus a Human teammate: The effects of teammate identity and performance on Human-AI cooperation
@@ -85,3 +86,15 @@ Understanding how humans interact with and rely on AI is crucial for better deci
 4. The reliance probability distribution predicted by their method vs the baslines for the 4 actions (appropriate rejection, inappropriate rejection, appropriate acceptance, inappropriate acceptance)
 5. The performance of their method vs the baseline methods for predicting the AI-reliance in High Penalty (HP) and Low Penalty (LP) settings for individuals
 6. The trust state transition probability difference (%) for HP vs. LP, previous experience et−1 being appropriate vs. inappropriate acceptance, or inappropriate vs. appropriate rejection
+
+### How does Value Similarity affect Human Reliance in AI-Assisted Ethical Decision Making
+
+#### Abstract
+This study examines the influence of value similarity between humans and AI on human reliance in AI-assisted ethical decision-making, using kidney allocation as a case study. Through a randomized human-subject experiment, ethical dilemmas were presented in different conditions: no AI recommendations, recommendations from a similar AI, and recommendations from a dissimilar AI. The results indicate that dissimilar AI recommendations had a more significant impact on human decisions overall. However, in cases of disagreement between humans and AI, participants were more likely to alter their decisions when presented with recommendations from a similar AI. This effect was not attributed to perceived similarity but rather to the AI displaying similar ethical values through its recommendations. The study also includes a preliminary analysis of the relationship between value similarity and trust, as well as potential shifts in ethical preferences at the population level.
+
+#### What is reported
+1. The interface of the experimental software.
+2. The measure of similarity/dissimilarity of the AI to participants through ranking the feature importances.
+3. The overarching structure of the experiment design with two stages of individual decision (stage 1) and AI-assisted decision making (stage 2) as well as two treatments of similar and dissimilar AI.
+4. The effect of value similarity on alignment change between individual and AI-assited stages.
+5. The effect of value similarity on alignment change between stages 1 and 2, across combinations of Deterministic/Random and Similar/Dissimilar.
