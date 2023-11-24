@@ -10,6 +10,7 @@
 | Trust in an AI versus a Human teammate: The effects of teammate identity and performance on Human-AI cooperation  | 2023  | Computers in Human Behavior | [link](https://www.sciencedirect.com/science/article/pii/S0747563222003569) | [summary](#trust-in-an-ai-versus-a-human-teammate:-the-effects-of-teammate-identity-and-performance-on-human-ai-cooperation) |
 | Uncalibrated Models Can Improve Human-AI Collaboration  | 2022  | NeurIPS | [link](https://papers.nips.cc/paper_files/paper/2022/hash/1968ea7d985aa377e3a610b05fc79be0-Abstract-Conference.html) | [summary](#uncalibrated-models-can-improve-human-ai-collaboration) |
 | Human-AI Collaborative Bayesian Optimisation  | 2022  | NeurIPS | [link](https://papers.nips.cc/paper_files/paper/2022/file/6751611b394a3464cea53eed91cf163c-Paper-Conference.pdf) | [summary](#human-ai-collaborative-bayesian-optimisation) |
+|AI‑Assisted Decision‑making: a Cognitive Modeling Approach to Infer Latent Reliance Strategies |2022 | Springer - Computational Brain & Behavior| [link](https://link.springer.com/article/10.1007/s42113-022-00157-y)| [summary]() |
 | The Utility of Explainable AI in Ad Hoc Human-Machine Teaming  | 2021  | NeurIPS | [link](https://papers.nips.cc/paper_files/paper/2021/hash/05d74c48b5b30514d8e9bd60320fc8f6-Abstract.html) | summary |
 | Evaluation of Human-AI Teams for Learned and Rule-Based Agents in Hanabi | 2021  | NeurIPS | [link](https://papers.nips.cc/paper_files/paper/2021/hash/86e8f7ab32cfd12577bc2619bc635690-Abstract.html) | summary |
 | Evaluating and Rewarding Teamwork Using Cooperative Game Abstractions  | 2020  | NeurIPS | [link](https://papers.nips.cc/paper_files/paper/2020/hash/4d95d05a4fc4eadbc3b9dde67afdca39-Abstract.html) | [summary](#evaluating-and-rewarding-teamwork-using-cooperative-game-abstractions) |
@@ -46,6 +47,23 @@ This paper explores the practical applications of AI where AI models assist huma
 
 ### Human-AI Collaborative Bayesian Optimisation
 Could be potentially useful for the defense part of the attack!
+
+### AI-Assisted Decision-making: a Cognitive Modeling Approach to Infer Latent Reliance Strategies
+
+#### Abstract
+This study discusses the prevalence of AI assistance in decision-making and emphasizes the importance of understanding human reliance on AI for effective joint decision-making. It highlights a gap between research practices and real-world decision-making, where researchers typically ask humans for independent decisions before introducing AI assistance. To bridge this gap, the authors propose a cognitive model that infers human reliance on AI without requiring independent decisions. Two behavioral experiments, one concurrent and one sequential, validate the model's predictions, demonstrating its ability to track human reliance strategies in different decision-making scenarios. The model offers a systematic approach to infer reliance on AI assistance and has the potential to enhance investigations into human-AI collaboration.
+
+#### What is reported
+1. The framework of the sequential and concurrent paradigms for AI-assisted decision-making. The sequential paradigm means the AI assitance is provided to the user after they make their decision independantly and the concurrent paradigm is when the AI's recommendation is readily available to the participant.
+2. The behavioral experiment interface in the AI-assited paradigm with the AI's confidence being provided with color coding.
+3. The graphical Bayesian Item-Response model for the AI-assisted decision-making model.
+4. Visual illustration of the image classification task used for the experiment. The task is a simple image classification, where the images are added different levels of noise to.
+5. Human accuracy with and without AI assistance as well as AI accuracy as a function of noise level.
+6. Differences in accuracy with AI assistance relative to no AI assistance and AI only.
+7. Advice-taking policies inferred from the advice-taking behavior in the concurrent paradigm and observed in the sequential paradigm.
+8. Accuracy of the advice-taking policy at the population level relative to the best and worst possible advice-taking policies.
+9. Individual differences in the effectiveness of advice-taking strategies as assessed by the percentile rank relative to the distribution of all possible advice-taking policies.
+
 
 ### Evaluating and Rewarding Teamwork Using Cooperative Game Abstractions
 No AI involved but they predict how well a team of individuals can perform together using cooperative game theory. Could be useful! 
